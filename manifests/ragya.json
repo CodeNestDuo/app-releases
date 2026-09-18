@@ -1,6 +1,28 @@
 {
-  "versionCode": 1,
-  "versionName": "1.0",
-  "apkUrl": "https://github.com/CodeNestDuo/app-releases/releases/download/ragya-v1.0/ragya-release.apk",
-  "changelog": "🎉 Welcome to Ragya 1.0! The initial public release after extensive internal beta testing:\n\n• High-fidelity local audio playback with gapless controls and queue management\n• Dynamic real-time audio visualizers (Topographic Waves, Concentric Rings, Winamp Classic, and more)\n• Full-featured Lyric Sync Studio to time, edit, and embed synchronized lyrics directly into track files\n• Advanced metadata editor with tag management and custom album artwork picker\n• Dual listening categorization: explore tracks by mood vibes (~) and listening contexts (#)\n• Modern Jetpack Compose design with dynamic Material You themes and responsive landscape support"
+  "versionCode": 2,
+  "versionName": "1.0.2",
+  "apkUrl": "https://github.com/CodeNestDuo/app-releases/releases/download/v1.0.2/ragya-release-v1.0.2.apk",
+  "releases": [
+    {
+      "versionCode": 2,
+      "versionName": "1.0.2",
+      "notes": [
+        "Fixed persistent playlist desync and random reshuffle bug across app restarts",
+        "Improved queue state restoration: original pre-shuffled list is now losslessly preserved",
+        "UI and mini player stabilization with robust media session synchronization"
+      ]
+    },
+    {
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "notes": [
+        "High-fidelity local audio playback with gapless controls and queue management",
+        "Dynamic real-time audio visualizers (Topographic Waves, Concentric Rings, Winamp Classic, and more)",
+        "Full-featured Lyric Sync Studio to time, edit, and embed synchronized lyrics directly into track files",
+        "Advanced metadata editor with tag management and custom album artwork picker",
+        "Dual listening categorization: explore tracks by mood vibes (~) and listening contexts (#)",
+        "Modern Jetpack Compose design with dynamic Material You themes and responsive landscape support"
+      ]
+    }
+  ]
 }
