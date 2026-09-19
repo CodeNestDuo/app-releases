@@ -1,8 +1,19 @@
 {
-  "versionCode": 2,
-  "versionName": "1.0.2",
+  "versionCode": 3,
+  "versionName": "1.0.4",
   "apkUrl": "https://github.com/CodeNestDuo/app-releases/releases/download/ragya-v1.0/ragya-release.apk",
   "releases": [
+    {
+      "versionCode": 3,
+      "versionName": "1.0.4",
+      "notes": [
+        "TagLib and metadata editor enhancements",
+        "Fixed playback service bugs and stability issues",
+        "Refined themes, layouts, UI, and documentation tutorials",
+        "Added more audio visualizers",
+        "Fixed settings screens and reactive state updates"
+      ]
+    },
     {
       "versionCode": 2,
       "versionName": "1.0.2",
