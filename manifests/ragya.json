@@ -1,8 +1,26 @@
 {
-  "versionCode": 3,
-  "versionName": "1.0.4",
-  "apkUrl": "https://github.com/CodeNestDuo/app-releases/releases/download/ragya-v1.0/ragya-release.apk",
+  "versionCode": 4,
+  "versionName": "1.1.0",
+  "apkUrl": "https://github.com/CodeNestDuo/app-releases/releases/download/ragya-v1.1/ragya-release.apk",
   "releases": [
+    {
+      "versionCode": 4,
+      "versionName": "1.1.0",
+      "notes": [
+        "Migrated core persistence to ObjectBox for sub-millisecond library queries, reactive flows, and atomic metadata updates",
+        "Enhanced Artist Hub with MusicBrainz demographics (origin, active years, and lifespan/dissolution tracking) and persistent web relations",
+        "Revamped artist visual pipeline with automated Deezer high-res portraits, Wikimedia fallback, and manual MBID/custom artwork overrides",
+        "Added Interactive Library Statistics dashboard with play habit leaderboards, storage footprints, and direct navigation to top artist discographies",
+        "Added Genres exploration with Spotify-style visual cards and unified multi-genre classification",
+        "Expanded Top Bar Quick Discovery hub with direct access to Favorites, Most Played, Recently Played, Recently Added, Genres, and Mood/Context vibes",
+        "Re-engineered album artwork pipeline using efficient BitmapFactory downsampling (RGB_565) and embedded ID3 extraction fallback to eliminate scroll stutter",
+        "Added MediaStore audio folder exclusion picker and Scoped Storage directory blacklisting in Scan Settings",
+        "Integrated 'Set as Ringtone' action with Scoped Storage write fallbacks and system setting permission handling",
+        "Upgraded audio playback engine with gapless playback, silence skipping, and volume normalization",
+        "Integrated multi-artist and multi-genre splitting across indexing layers, search filters, and detail dialogs",
+        "Enhanced Song Info dialog with basicMarquee scrolling, raw storage path inspection, and quick tag editing"
+      ]
+    },
     {
       "versionCode": 3,
       "versionName": "1.0.4",
