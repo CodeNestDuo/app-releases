@@ -1,8 +1,22 @@
 {
-  "versionCode": 5,
-  "versionName": "1.1.5",
+  "versionCode": 6,
+  "versionName": "1.1.6",
   "apkUrl": "https://github.com/CodeNestDuo/app-releases/releases/download/ragya-v1.1/ragya-release.apk",
   "releases": [
+    {
+      "versionCode": 6,
+      "versionName": "1.1.6",
+      "notes": [
+        "Smarter Sleep Timer: stop playback by duration, song count, end of queue, or after a specific track finishes",
+        "Custom sleep timer options with direct numeric inputs for precise minutes or track counts",
+        "Fixed sleep timer lifecycle: audio now pauses cleanly without breaking UI playback controls or closing the app",
+        "New single-tap Track Rating dialog to quickly mark songs as Liked, Disliked, or Neutral",
+        "Smoother, jitter-free queue reordering with rock-solid duplicate track handling",
+        "Faster and more responsive song lists with scoped recomposition across all library screens",
+        "Added home screen app launcher shortcuts to quickly Play, Shuffle, Search, or open Favorites",
+        "Fixed background playback stability, lifecycle bugs, and database sync edge cases"
+      ]
+    },
     {
       "versionCode": 5,
       "versionName": "1.1.5",
