@@ -1,8 +1,24 @@
 {
-  "versionCode": 4,
-  "versionName": "1.1.0",
+  "versionCode": 5,
+  "versionName": "1.1.5",
   "apkUrl": "https://github.com/CodeNestDuo/app-releases/releases/download/ragya-v1.1/ragya-release.apk",
   "releases": [
+    {
+      "versionCode": 5,
+      "versionName": "1.1.5",
+      "notes": [
+        "Faster, instant loading and smoother sorting in Favorites and smart playlists",
+        "Added audio pitch controls in playback settings and player dialogs",
+        "Customizable play-count thresholds (set duration percentage or time cap for played tracks)",
+        "Fixed playback queue bugs, track skipping, and timeline desync issues",
+        "More reliable album artwork loading across the app",
+        "Improved playlist backup and restore reliability",
+        "Cleaner, refreshed controls and button layout on the Now Playing screen",
+        "Simplified onboarding: only audio storage access is required to get started",
+        "Easier permission recovery with one-tap shortcuts to App Settings when needed",
+        "Added a unified sort-order dialog across all music lists"
+      ]
+    },
     {
       "versionCode": 4,
       "versionName": "1.1.0",
