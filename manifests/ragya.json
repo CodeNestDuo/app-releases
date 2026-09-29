@@ -1,8 +1,26 @@
 {
-  "versionCode": 6,
-  "versionName": "1.1.6",
+  "versionCode": 7,
+  "versionName": "1.1.7",
   "apkUrl": "https://github.com/CodeNestDuo/app-releases/releases/download/ragya-v1.1/ragya-release.apk",
   "releases": [
+    {
+      "versionCode": 7,
+      "versionName": "1.1.7",
+      "notes": [
+        "Smarter library sync: your play counts, favorites, and playlists now stay intact even when moving folders or rescanning storage",
+        "Multiple copies support: identical songs in different folders (like Music and Downloads) now keep their own separate play history and ratings",
+        "New Track Conflict resolver: easily link or fix moved songs when restoring backups",
+        "Overhauled Equalizer & Sound Effects: redesigned interface with rotary dials, bass boost, reverb, and a master bypass toggle",
+        "New Stereo Widening & Balance controls for a more immersive headphone experience",
+        "Smoother, zero-lag music visualizers that react accurately to your music",
+        "Real-time volume sync with hardware buttons and device media volume",
+        "Fixed playlist editing crashes: drag-and-drop reordering is now completely stable, even with duplicate tracks in the queue",
+        "Smarter playlist saving: automatically suggests playlist names based on what you are currently playing",
+        "Added System Diagnostics in Settings to view recent app logs or export a diagnostic report for troubleshooting",
+        "New font customization options: choose from Inter, Lexend, Open Sans, Selawik, and Work Sans in Appearance settings",
+        "More reliable local JSON backup and restore for playlists, tags, and play history"
+      ]
+    },
     {
       "versionCode": 6,
       "versionName": "1.1.6",
