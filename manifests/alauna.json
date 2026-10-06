@@ -1,0 +1,106 @@
+{
+  "versionCode": 7,
+  "versionName": "1.1.7",
+  "apkUrl": "https://github.com/CodeNestDuo/app-releases/releases/download/alauna-latest/alauna-release.apk",
+  "releases": [
+    {
+      "versionCode": 7,
+      "versionName": "1.1.7",
+      "notes": [
+        "Daily Mixes & Radio Stations: Algorithmic smart stations inspired by Nokia MixRadio that adapt to listening habits, dominant vibes, time of day, and catalog rediscovery.",
+        "Resilient Library Sync: Play counts, favorites, and playlists now stay linked when moving files or rescanning storage.",
+        "Multi-Copy Support: Duplicate files across different folders (e.g., Music vs. Downloads) maintain independent play counts and ratings.",
+        "Track Conflict Resolver: Easily re-link or reconcile moved audio files during backup restoration.",
+        "Redesigned Equalizer & FX: Fresh interface featuring rotary dials, bass boost, reverb, and a global bypass toggle.",
+        "Spatial Audio Controls: Added stereo widening and channel balance sliders for headphone listening.",
+        "Smoother Visualizers: Optimized rendering engine for responsive, low-latency audio visualizers.",
+        "Hardware Volume Sync: Player volume now stays directly synchronized with device media steps.",
+        "Stable Queue Reordering: Resolved crashes when dragging and dropping tracks in playlists containing duplicates.",
+        "Contextual Playlist Naming: Auto-suggests playlist names based on the current playing track or album.",
+        "In-App Diagnostics: Added a system log viewer and diagnostic export tool under Settings.",
+        "Custom Typography: Added Inter, Lexend, Open Sans, Selawik, and Work Sans font options in Appearance settings.",
+        "Hardened Backups: Improved reliability of local JSON export/import for playlists, tags, and history."
+      ]
+    },
+    {
+      "versionCode": 6,
+      "versionName": "1.1.6",
+      "notes": [
+        "Smarter Sleep Timer: stop playback by duration, song count, end of queue, or after a specific track finishes",
+        "Custom sleep timer options with direct numeric inputs for precise minutes or track counts",
+        "Fixed sleep timer lifecycle: audio now pauses cleanly without breaking UI playback controls or closing the app",
+        "New single-tap Track Rating dialog to quickly mark songs as Liked, Disliked, or Neutral",
+        "Smoother, jitter-free queue reordering with rock-solid duplicate track handling",
+        "Faster and more responsive song lists with scoped recomposition across all library screens",
+        "Added home screen app launcher shortcuts to quickly Play, Shuffle, Search, or open Favorites",
+        "Fixed background playback stability, lifecycle bugs, and database sync edge cases"
+      ]
+    },
+    {
+      "versionCode": 5,
+      "versionName": "1.1.5",
+      "notes": [
+        "Faster, instant loading and smoother sorting in Favorites and smart playlists",
+        "Added audio pitch controls in playback settings and player dialogs",
+        "Customizable play-count thresholds (set duration percentage or time cap for played tracks)",
+        "Fixed playback queue bugs, track skipping, and timeline desync issues",
+        "More reliable album artwork loading across the app",
+        "Improved playlist backup and restore reliability",
+        "Cleaner, refreshed controls and button layout on the Now Playing screen",
+        "Simplified onboarding: only audio storage access is required to get started",
+        "Easier permission recovery with one-tap shortcuts to App Settings when needed",
+        "Added a unified sort-order dialog across all music lists"
+      ]
+    },
+    {
+      "versionCode": 4,
+      "versionName": "1.1.0",
+      "notes": [
+        "Migrated core persistence to ObjectBox for sub-millisecond library queries, reactive flows, and atomic metadata updates",
+        "Enhanced Artist Hub with MusicBrainz demographics (origin, active years, and lifespan/dissolution tracking) and persistent web relations",
+        "Revamped artist visual pipeline with automated Deezer high-res portraits, Wikimedia fallback, and manual MBID/custom artwork overrides",
+        "Added Interactive Library Statistics dashboard with play habit leaderboards, storage footprints, and direct navigation to top artist discographies",
+        "Added Genres exploration with Spotify-style visual cards and unified multi-genre classification",
+        "Expanded Top Bar Quick Discovery hub with direct access to Favorites, Most Played, Recently Played, Recently Added, Genres, and Mood/Context vibes",
+        "Re-engineered album artwork pipeline using efficient BitmapFactory downsampling (RGB_565) and embedded ID3 extraction fallback to eliminate scroll stutter",
+        "Added MediaStore audio folder exclusion picker and Scoped Storage directory blacklisting in Scan Settings",
+        "Integrated 'Set as Ringtone' action with Scoped Storage write fallbacks and system setting permission handling",
+        "Upgraded audio playback engine with gapless playback, silence skipping, and volume normalization",
+        "Integrated multi-artist and multi-genre splitting across indexing layers, search filters, and detail dialogs",
+        "Enhanced Song Info dialog with basicMarquee scrolling, raw storage path inspection, and quick tag editing"
+      ]
+    },
+    {
+      "versionCode": 3,
+      "versionName": "1.0.4",
+      "notes": [
+        "TagLib and metadata editor enhancements",
+        "Fixed playback service bugs and stability issues",
+        "Refined themes, layouts, UI, and documentation tutorials",
+        "Added more audio visualizers",
+        "Fixed settings screens and reactive state updates"
+      ]
+    },
+    {
+      "versionCode": 2,
+      "versionName": "1.0.2",
+      "notes": [
+        "Fixed persistent playlist desync and random reshuffle bug across app restarts",
+        "Improved queue state restoration: original pre-shuffled list is now losslessly preserved",
+        "UI and mini player stabilization with robust media session synchronization"
+      ]
+    },
+    {
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "notes": [
+        "High-fidelity local audio playback with gapless controls and queue management",
+        "Dynamic real-time audio visualizers (Topographic Waves, Concentric Rings, Winamp Classic, and more)",
+        "Full-featured Lyric Sync Studio to time, edit, and embed synchronized lyrics directly into track files",
+        "Advanced metadata editor with tag management and custom album artwork picker",
+        "Dual listening categorization: explore tracks by mood vibes (~) and listening contexts (#)",
+        "Modern Jetpack Compose design with dynamic Material You themes and responsive landscape support"
+      ]
+    }
+  ]
+}
