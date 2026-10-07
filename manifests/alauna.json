@@ -14,6 +14,7 @@
         "Refined Music Search: Clean pill-style search bar with single-tap filter chips to quickly narrow down songs, artists, or albums.",
         "Smart Lyrics Matcher: Refined the online lyrics search sheet to prioritize and surface versions closest to the track's actual duration.",
         "Instant Album Art Updates: Editing tags or replacing cover art now updates player artwork and mini players immediately without stale cache delays.",
+        "Smoother Scrolling Carousel: Improved spotlight carousel scrolling and state restoration to prevent cards from appearing partially between positions when returning to the Home screen.",
         "Asset & Storage Cleanup: Removed unused legacy graphics and streamlined app bundle resources."
       ]
     },
