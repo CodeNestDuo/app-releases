@@ -1,8 +1,22 @@
 {
-  "versionCode": 7,
-  "versionName": "1.1.7",
+  "versionCode": 8,
+  "versionName": "1.1.8",
   "apkUrl": "https://github.com/CodeNestDuo/app-releases/releases/download/alauna-latest/alauna-release.apk",
   "releases": [
+    {
+      "versionCode": 8,
+      "versionName": "1.1.8",
+      "notes": [
+        "Sleep Timer UI Sync: Reopening the app now preserves and displays the active sleep timer countdown directly in the player menu without resetting.",
+        "Granular Folder Exclusions: Exclude loose songs sitting directly in parent folders without accidentally blocking their subfolders.",
+        "New Visualizer Styles: Added smooth Geiss and Modern Hi-Fi visualizer presets for the Now Playing screen.",
+        "Non-Intrusive Engine Fallback: Visualizers silently fall back to internal processing without popping up error toasts, featuring clear status banners in Settings.",
+        "Refined Music Search: Clean pill-style search bar with single-tap filter chips to quickly narrow down songs, artists, or albums.",
+        "Smart Lyrics Matcher: Refined the online lyrics search sheet to prioritize and surface versions closest to the track's actual duration.",
+        "Instant Album Art Updates: Editing tags or replacing cover art now updates player artwork and mini players immediately without stale cache delays.",
+        "Asset & Storage Cleanup: Removed unused legacy graphics and streamlined app bundle resources."
+      ]
+    },
     {
       "versionCode": 7,
       "versionName": "1.1.7",
