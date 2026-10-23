@@ -1,8 +1,17 @@
 {
-  "versionCode": 8,
-  "versionName": "1.1.8",
+  "versionCode": 9,
+  "versionName": "1.1.9",
   "apkUrl": "https://play.google.com/apps/testing/com.app.alauna",
   "releases": [
+    {
+      "versionCode": 9,
+      "versionName": "1.1.9",
+      "notes": [
+        "Seamless Tag Editing: Resolved native Opus/Ogg decoder stalls when modifying tags or artwork mid-track, ensuring audio continues uninterrupted without stream corruption.",
+        "Architecture Modernization: Decoupled UI modules, standardizing screen navigation hierarchies and enforcing strict clean-architecture layer boundaries across data entities.",
+        "Engine & Toolchain Modernization: Migrated the build pipeline to strict Java 17 toolchains and pruned redundant legacy asset pipelines for a faster, leaner binary footprint."
+      ]
+    },
     {
       "versionCode": 8,
       "versionName": "1.1.8",
