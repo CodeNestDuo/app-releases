@@ -7,9 +7,11 @@
       "versionCode": 9,
       "versionName": "1.1.9",
       "notes": [
-        "Seamless Tag Editing: Resolved native Opus/Ogg decoder stalls when modifying tags or artwork mid-track, ensuring audio continues uninterrupted without stream corruption.",
-        "Architecture Modernization: Decoupled UI modules, standardizing screen navigation hierarchies and enforcing strict clean-architecture layer boundaries across data entities.",
-        "Engine & Toolchain Modernization: Migrated the build pipeline to strict Java 17 toolchains and pruned redundant legacy asset pipelines for a faster, leaner binary footprint."
+        "Opus Decoder & Tagging Stability: Resolved playback crashes and native decoder stalls during tag editing or artwork updates on Opus/Ogg streams, ensuring continuous, glitch-free audio.",
+        "Folder Exclusion Tree Revamp: Redesigned the directory exclusion picker with capped indentation, branch guidelines, and flattened list virtualization to eliminate UI truncation on deeply nested paths.",
+        "Resilient Playback Queue: Fixed queue bounds and active index tracking during playback errors, allowing seamless skipping forward or backward without desyncing playlist state.",
+        "Sound Effects & Equalizer Polish: Enhanced Equalizer and Volume tab controls with responsive DSP slider adjustments and persistent gain settings.",
+        "Clean Architecture Modernization: Decoupled UI modules, unified presentation screens/components across library, player, and settings, and upgraded the toolchain for a leaner binary footprint."
       ]
     },
     {
