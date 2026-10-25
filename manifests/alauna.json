@@ -1,8 +1,20 @@
 {
-  "versionCode": 9,
-  "versionName": "1.1.9",
+  "versionCode": 10,
+  "versionName": "1.1.10",
   "apkUrl": "https://play.google.com/apps/testing/com.app.alauna",
   "releases": [
+    {
+      "versionCode": 10,
+      "versionName": "1.1.10",
+      "notes": [
+        "Modular Album Artwork: Choose between Vinyl Disc, Compact Disc, Classic Cassette, and Static Card presentation styles on the Now Playing screen.",
+        "Visuals & Artwork Settings: New dedicated configuration screen to customize player aesthetics, disc animations, and visual styles.",
+        "High-Performance Embedded Art: Implemented AlaunaTagLibBitmapLoader for direct native artwork extraction without frame drops.",
+        "Refined Media Notification: Upgraded notification controls with quick Favorite toggle, Shuffle, and Repeat state synchronization.",
+        "Playback Speed & Pitch Stability: Added debouncing to pitch and speed slider adjustments to prevent playback engine crashes during rapid changes.",
+        "Settings Architecture Refactor: Modularized configuration screens and decoupled view models for faster navigation."
+      ]
+    },
     {
       "versionCode": 9,
       "versionName": "1.1.9",
