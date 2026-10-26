@@ -1,8 +1,22 @@
 {
-  "versionCode": 11,
-  "versionName": "1.1.11",
+  "versionCode": 12,
+  "versionName": "1.1.12",
+  "minSdkVersion": 24,
+  "targetSdkVersion": 35,
+  "releaseDate": "2026-10-26",
   "apkUrl": "https://play.google.com/apps/testing/com.app.alauna",
   "releases": [
+    {
+      "versionCode": 12,
+      "versionName": "1.1.12",
+      "notes": [
+        "Fixed queue desynchronization and selection highlighting collisions for duplicate tracks using persistent slot IDs.",
+        "Resolved active playback queue truncation where songs from excluded or hidden folders were dropped during cold-start restoration.",
+        "Synchronized metadata and favorite status updates across the playback service, library database, and listening history.",
+        "Refreshed offline tutorials for the equalizer, audio DSP effects, and playback controls.",
+        "Improved metadata editor screen input mechanism and UI"
+      ]
+    },
     {
       "versionCode": 11,
       "versionName": "1.1.11",
@@ -21,8 +35,8 @@
       "notes": [
         "Modular Album Artwork: Choose between Vinyl Disc, Compact Disc, Classic Cassette, and Static Card presentation styles on the Now Playing screen.",
         "Visuals & Artwork Settings: New dedicated configuration screen to customize player aesthetics, disc animations, and visual styles.",
-        "High-Performance Embedded Art: Implemented AlaunaTagLibBitmapLoader for direct native artwork extraction without frame drops.",
-        "Refined Media Notification: Upgraded notification controls with quick Favorite toggle, Shuffle, and Repeat state synchronization.",
+        "High-Performance Embedded Art: Implemented native bitmap loader for direct native artwork extraction without frame drops.",
+        "Refined Media Notification: Upgraded notification controls with quick Favorite toggle, Shuffle toggle with proper state synchronization.",
         "Playback Speed & Pitch Stability: Added debouncing to pitch and speed slider adjustments to prevent playback engine crashes during rapid changes.",
         "Settings Architecture Refactor: Modularized configuration screens and decoupled view models for faster navigation."
       ]
@@ -154,4 +168,3 @@
     }
   ]
 }
-
