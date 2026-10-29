@@ -1,11 +1,26 @@
 {
-  "versionCode": 12,
-  "versionName": "1.1.12",
+  "versionCode": 13,
+  "versionName": "1.1.13",
   "minSdkVersion": 24,
   "targetSdkVersion": 35,
-  "releaseDate": "2026-10-26",
+  "releaseDate": "2026-10-29",
   "apkUrl": "https://play.google.com/apps/testing/com.app.alauna",
   "releases": [
+    {
+      "versionCode": 13,
+      "versionName": "1.1.13",
+      "notes": [
+        "Queue-Based Playlists: Redesigned playlist management to fully support duplicate songs and precise drag-and-drop track reordering.",
+        "Smart Dynamic Covers: Added real-time 2x2 collage artwork previews for playlists, automatically prioritizing songs with album covers.",
+        "Native MIDI Engine: Direct playback for .mid/.midi files with custom SoundFont support, interactive falling notes, and a visual piano keyboard.",
+        "Overhauled Equalizer & Presets: Refreshed EQ screen with a curated preset catalog, custom instrument icons, and active DSP status banners.",
+        "Smoother Speed & Pitch Controls: Added fine 0.10x adjustments (0.5x–2.0x speed, 0.5x–1.5x pitch) with instant, glitch-free audio response.",
+        "New Audio Visualizers: Added Dandelion Drifting, Flying Maiden, Jazz Bar, and Mandala Lotus visualizer styles to the Now Playing screen.",
+        "Smart Collections Menu: Replaced the quick navigation menu with a clean, frosted Material 3 surface for instant access to favorites, tags, and stats.",
+        "Lossless Playlist Import: Exported M3U/M3U8 playlists now preserve their full dates and timestamps when imported back into the library.",
+        "General bug fixes, playback stability improvements, and UI enhancements."
+      ]
+    },
     {
       "versionCode": 12,
       "versionName": "1.1.12",
