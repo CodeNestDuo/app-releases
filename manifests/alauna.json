@@ -1,11 +1,45 @@
 {
-  "versionCode": 13,
-  "versionName": "1.1.13",
+  "versionCode": 16,
+  "versionName": "1.1.16",
   "minSdkVersion": 24,
   "targetSdkVersion": 35,
-  "releaseDate": "2026-10-29",
+  "releaseDate": "2026-11-02",
   "apkUrl": "https://play.google.com/apps/testing/com.app.alauna",
   "releases": [
+    {
+      "versionCode": 16,
+      "versionName": "1.1.16",
+      "notes": [
+        "Support the Developer: Added an optional tip jar with 4 support tiers (Resonance, Harmonics, Overture, Crescendo) featuring direct Google Play checkout and local currency pricing.",
+        "MIDI Sonogram Art: Added procedural sonogram artwork that draws colorful sound waves directly from MIDI song notes.",
+        "Audio Engine Crash Fix: Fixed an immediate startup crash when loading native MIDI playback files.",
+        "Smarter Feature Tips: Tutorial bubbles now detect where they sit on the screen so arrows always point accurately at buttons instead of flipping weirdly.",
+        "Deeper Song Details: Upgraded the Song Info dialog to show extra audio properties, file metadata, and format details.",
+        "Translations Update: Brought all 13 supported languages up to date with the latest screens and settings."
+      ]
+    },
+    {
+      "versionCode": 15,
+      "versionName": "1.1.15",
+      "notes": [
+        "Reliable Playback Queue: Completely overhauled how songs line up to play, fixing random song skips and playlist synchronization bugs.",
+        "App Shortcut Fixes: Home screen and launcher shortcuts now start playback smoothly without stutter or frozen screens on cold boots.",
+        "Instant Playlist Reordering: Moving songs around in active playlists now updates immediately without falling out of sync.",
+        "Stability & Performance: Cleaned up internal background services for smoother, uninterrupted listening."
+      ]
+    },
+    {
+      "versionCode": 14,
+      "versionName": "1.1.14",
+      "notes": [
+        "13 Languages Supported: Full international translation support across Arabic, German, Spanish, French, Hindi, Japanese, Korean, Polish, Brazilian Portuguese, Russian, Telugu, and Simplified Chinese.",
+        "Interactive App Tips: Introduced helpful feature popups across the app with options to dismiss once or hide permanently.",
+        "Realistic Vinyl Animation: The tonearm needle on the vinyl record player now sweeps accurately from the outer edge to the center as your track plays.",
+        "Smaller Download Size: Switched to modern compressed SoundFont instruments (.sf3), cutting file size while keeping crisp MIDI sound quality.",
+        "Cleaner Artist Tagging: Better multi-artist separation so collaborative tracks no longer clutter your artist list.",
+        "Smoother Controls: Resolved lag and desync when scrubbing through songs or switching tracks rapidly."
+      ]
+    },
     {
       "versionCode": 13,
       "versionName": "1.1.13",
