@@ -1,11 +1,33 @@
 {
-  "versionCode": 16,
-  "versionName": "1.1.16",
+  "versionCode": 18,
+  "versionName": "1.1.18",
   "minSdkVersion": 24,
   "targetSdkVersion": 35,
-  "releaseDate": "2026-11-02",
+  "releaseDate": "2026-11-07",
   "apkUrl": "https://play.google.com/apps/testing/com.app.alauna",
   "releases": [
+    {
+      "versionCode": 18,
+      "versionName": "1.1.18",
+      "notes": [
+        "Audio Trimmer & Export: High-precision sample-accurate trimming with lossless FFmpeg export for both audio files and SoundFont-synthesized MIDI tracks.",
+        "Interactive Waveform Seekbar: Multi-point visual waveforms for instant scrub previews, plus sub-15ms note-density waveform extraction for MIDI files.",
+        "Zero-Permission Visualizer: Visualizers now tap internal playback PCM directly, delivering smooth 60 FPS visuals with zero microphone permission required.",
+        "Decoupled DSP Audio Effects: Built-in software bass boost, 3D stereo widener, and acoustic reverb guarantee consistent sound across all devices without relying on patchy hardware HALs.",
+        "Fault-Isolated Playback: Visualizer and analysis tasks run on dedicated background threads, ensuring music playback never stutters or drops.",
+        "Thermal & Battery Optimizations: Integrated ARM NEON SIMD vectorization and zero-allocation ring buffers for cool, energy-efficient listening."
+      ]
+    },
+    {
+      "versionCode": 17,
+      "versionName": "1.1.17",
+      "notes": [
+        "CodeNest Duo Showcase: Replaced the in-app tip jar with a developer hub showcasing our other native projects, website links, and community channels.",
+        "Dynamic App Catalog: Added a lightweight, locale-aware project catalog that loads descriptions, tags, and icons directly from our server.",
+        "Reliable Tutorial Bubbles: Fixed a coordinate race condition in release builds so tutorial bubbles anchor accurately without failing to appear.",
+        "Expanded Translations: Fully localized developer hub descriptions, community links, and app metadata across all 13 supported languages."
+      ]
+    },
     {
       "versionCode": 16,
       "versionName": "1.1.16",
