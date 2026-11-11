@@ -1,0 +1,26 @@
+{
+  "versionCode": 1,
+  "versionName": "1.0.0",
+  "minSdkVersion": 24,
+  "targetSdkVersion": 36,
+  "releaseDate": "2026-11-11",
+  "apkUrl": "https://play.google.com/store/apps/details?id=com.app.aurelia",
+  "releases": [
+    {
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "notes": [
+        "Jellyfin Ecosystem & Sync: Seamless multi-server connectivity with Quick Connect, QR instant pairing, fast profile switching, and Jellyfin 12 readiness.",
+        "Live TV & Interactive EPG: Stream live broadcast channels, explore electronic program guide grids, and review server DVR recordings.",
+        "Unified Dual Playback Engines: Instant runtime switching between Media3 (ExoPlayer) and libmpv with hardware decoding, Direct Play, and adaptive transcoding.",
+        "Advanced Anime Subtitles: Full native libmpv support for stylized ASS/SSA typography, track selection, and external subtitle loading.",
+        "Offline Downloads Engine: Resilient media downloader with paused/resumed transfers, error recovery, custom storage directories, and complete offline playback.",
+        "Server Operations & HUD: Direct server health inspection, active stream telemetry, and system maintenance directly from the client.",
+        "Live Sessions & Toast Dispatch: Monitor connected users and active playback sessions with options to send toast notifications and broadcast alerts.",
+        "Seerr Request Center: Native integration with Overseerr/Jellyseerr to explore, request, and monitor media availability.",
+        "Mobile QR Push Companion: Direct local Wi-Fi handshake to scan and push active authentication sessions straight to Aurelia TV.",
+        "Adaptive Jetpack Compose UI: Modern Material You design featuring dynamic Monet themes, AMOLED True Black mode, and custom typography."
+      ]
+    }
+  ]
+}
