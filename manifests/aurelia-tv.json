@@ -1,0 +1,116 @@
+{
+  "versionCode": 13,
+  "versionName": "1.0.13",
+  "minSdkVersion": 24,
+  "targetSdkVersion": 36,
+  "releaseDate": "2026-11-11",
+  "apkUrl": "https://play.google.com/apps/testing/com.app.aureliatv",
+  "releases": [
+    {
+      "versionCode": 13,
+      "versionName": "1.0.13",
+      "notes": [
+        "Live TV Navigation Polish: Refined Live TV guide navigation, channel grid interactions, and electronic program guide (EPG) transitions.",
+        "TV Interface Enhancements: Refined card elevations, focus borders, and large-screen layout alignments.",
+        "Stream Switching Stability: Resolved edge-case stream switching stalls and unhandled player exit timeouts."
+      ]
+    },
+    {
+      "versionCode": 12,
+      "versionName": "1.0.12",
+      "notes": [
+        "Live TV Reliability: Fixed channel switching focus traps and resolved audio/video stream sync delays during live channel playback.",
+        "Focus Traversal & NavInputLock: Resolved ANR focus-traversal loops and added a global navigation input lock to prevent rapid D-pad input queuing.",
+        "Network Port Isolation: Isolated internal diagnostic server (LogHttpServer) to port 8088 to eliminate local socket collisions.",
+        "UI & Performance: TV interface contrast tweaks and smoothness optimizations across horizontal media carousels."
+      ]
+    },
+    {
+      "versionCode": 11,
+      "versionName": "1.0.11",
+      "notes": [
+        "Server Operations HUD: Real-time diagnostics overlay displaying live server operational metrics and session telemetry directly on TV.",
+        "Real-Time WebSocket Sync: Immediate bi-directional sync with Jellyfin servers over persistent WebSockets for live status updates.",
+        "Admin Session Controls: Remote session oversight and playback controls for multi-user server setups."
+      ]
+    },
+    {
+      "versionCode": 10,
+      "versionName": "1.0.9",
+      "notes": [
+        "Native MDK Engine: Integrated high-performance native MDK multimedia player engine alongside MPV and Media3 for improved hardware decode support.",
+        "Pairing Handshake: Stabilized direct TV-to-server and mobile QR pairing handshakes.",
+        "Overlay & Session Lifecycle: Hardened session lifecycles across sleep/resume states and refined the transparent playback overlay deck."
+      ]
+    },
+    {
+      "versionCode": 7,
+      "versionName": "1.0.6",
+      "notes": [
+        "Persistent Engine Singleton: Refactored MPV lifecycle into a persistent singleton engine to eliminate teardown latency and memory churn when cycling playback items.",
+        "In-App Diagnostic Logs: Added built-in log sharing and export tools to capture and inspect TV runtime diagnostics.",
+        "UI Polish: Overall playback stability and TV user interface refinements."
+      ]
+    },
+    {
+      "versionCode": 6,
+      "versionName": "1.0.5",
+      "notes": [
+        "Dedicated Genre Browsing: Added dedicated Genre and Genre Details browsing screens with optimized D-pad focus handling.",
+        "Dynamic Screensaver: Screensaver now displays the matching movie or TV show title and rotates fresh cached backdrops.",
+        "MPV Audio & Sub Sync: Fixed audio stall and subtitle seek freeze issues in the MPV player engine.",
+        "Automatic Server Verification: Added auto-verification on Login, Add Server, and Add Account screens after entering server addresses."
+      ]
+    },
+    {
+      "versionCode": 5,
+      "versionName": "1.0.4",
+      "notes": [
+        "Player Top Bar: Added header showing current time, estimated finish time ('Ends at'), and Up Next preview card for TV episodes.",
+        "Media Info Stream Dialog: On-screen info modal detailing Direct Play vs Transcode status, transcode reasons, container format, and video/audio codecs.",
+        "Refined Playback Controls: Centered on-screen menu buttons with adjusted focus spacing and aligned progress timestamps.",
+        "Accurate Audio & Subtitle Labels: Audio and subtitle selectors now display clean language codes without text truncation.",
+        "Stream Error & Recovery: Added dedicated error screen with a one-click Retry button for failed streams.",
+        "Watch Status Integrity: Fixed an issue where videos that failed to play could accidentally be marked as watched on the server."
+      ]
+    },
+    {
+      "versionCode": 4,
+      "versionName": "1.0.3",
+      "notes": [
+        "Channel Logo Rendering: Fixed Live TV channel logos not displaying on initial launch.",
+        "Leaner Binary Footprint: Reduced APK size by stripping unused architecture components.",
+        "Targeted Compatibility: Stricter TV compatibility rules to guarantee smooth performance across Android TV and Google TV devices."
+      ]
+    },
+    {
+      "versionCode": 3,
+      "versionName": "1.0.2",
+      "notes": [
+        "Leanback Manifest Targeting: Configured manifest declarations to strictly target Android TV and Google TV devices.",
+        "Navigation Refinements: Minor interface adjustments across D-pad directional navigation and on-screen keyboard input components."
+      ]
+    },
+    {
+      "versionCode": 2,
+      "versionName": "1.0.1",
+      "notes": [
+        "Live TV Startup Fix: Resolved issue where Live TV channels failed to start on the first click.",
+        "Screensaver Input Isolation: Prevented screensaver clicks from passing through to underlying buttons and suppressed screensaver during active buffering.",
+        "Side Menu Focus Retention: Fixed focus loss to the side navigation rail when exiting Live TV playback.",
+        "Stream Resilience: Improved network retry handling for IPTV streams and refined details screen audio/subtitle badges."
+      ]
+    },
+    {
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "notes": [
+        "Initial Aurelia TV Release: Native Android TV and Google TV client built exclusively for Jellyfin media servers.",
+        "TV-First Large Screen UI: Purpose-built media feeds, horizontal carousels, and directional D-pad focus handling.",
+        "Multi-Engine Multimedia Pipeline: Integrated support for Media3, MPV, and LibVLC playback engines with hardware acceleration.",
+        "Remote-Friendly Playback Deck: Trickplay timeline previews, chapter navigation, and synchronized watch progress reporting.",
+        "Multi-Account Profiles: Instant account and profile switching with independent authentication sessions."
+      ]
+    }
+  ]
+}
