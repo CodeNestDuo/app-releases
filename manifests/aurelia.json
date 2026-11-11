@@ -4,7 +4,7 @@
   "minSdkVersion": 24,
   "targetSdkVersion": 36,
   "releaseDate": "2026-11-11",
-  "apkUrl": "https://play.google.com/store/apps/details?id=com.app.aurelia",
+  "apkUrl": "https://play.google.com/apps/testing/com.app.aurelia",
   "releases": [
     {
       "versionCode": 1,
