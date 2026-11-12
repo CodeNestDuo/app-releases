@@ -1,0 +1,58 @@
+
+name: Feature Request
+description: Suggest a new feature or improvement for our apps.
+title: "[Feature Request]: "
+labels:
+  - enhancement
+  - needs-triage
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement!
+        Tell us what you'd like to see and why it would be useful.
+
+  - type: dropdown
+    id: app
+    attributes:
+      label: Which app is this for?
+      options:
+        - Aurelia (Mobile & Tablet)
+        - Aurelia TV (Android TV & Google TV)
+        - Alauna (Android Music Player)
+        - All apps
+    validations:
+      required: true
+
+  - type: input
+    id: feature
+    attributes:
+      label: Feature title
+      placeholder: A short description of your idea.
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your idea
+      description: What would you like to see?
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why would this be useful?
+      description: Explain the problem this feature would solve.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Screenshots, examples or references.
+    validations:
+      required: false
