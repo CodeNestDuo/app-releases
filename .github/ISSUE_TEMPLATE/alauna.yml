@@ -1,0 +1,96 @@
+
+name: Alauna Bug Report
+description: Report a bug in Alauna Android music player.
+title: "[Alauna]: "
+labels:
+  - bug
+  - app:alauna
+  - needs-triage
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us improve Alauna!
+        Please provide as much detail as possible.
+        Do not include private information or personal audio files.
+
+  - type: input
+    id: app_version
+    attributes:
+      label: Alauna version
+      placeholder: e.g. 1.1.11
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device model
+      placeholder: e.g. iQOO Neo, Samsung Galaxy
+    validations:
+      required: true
+
+  - type: input
+    id: android_version
+    attributes:
+      label: Android version
+      placeholder: e.g. Android 15
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      placeholder: What happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open...
+        2. Navigate to...
+        3. Play...
+        4. Observe the issue.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: feature
+    attributes:
+      label: Affected feature
+      description: Which part of Alauna is affected?
+      options:
+        - Music playback
+        - Audio effects / Equalizer
+        - Lyrics / Lyric Studio
+        - Visualizers / Waveforms
+        - Playlists / Queue
+        - Library / Scanning
+        - Metadata / Tag editing
+        - MIDI playback
+        - Downloads / File access
+        - UI / Navigation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      placeholder: What did you expect to happen?
+    validations:
+      required: false
+
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Logs and screenshots
+      description: Attach relevant logs or screenshots. Remove private information first.
+    validations:
+      required: false
