@@ -1,11 +1,28 @@
 {
-  "versionCode": 1,
-  "versionName": "1.0.0",
+  "versionCode": 3,
+  "versionName": "1.0.2",
   "minSdkVersion": 24,
   "targetSdkVersion": 36,
-  "releaseDate": "2026-11-11",
+  "releaseDate": "2026-11-12",
   "apkUrl": "https://play.google.com/apps/testing/com.app.aurelia",
   "releases": [
+    {
+      "versionCode": 3,
+      "versionName": "1.0.2",
+      "notes": [
+        "Cleaner Device Sessions: Fixed an issue where signing in could leave duplicate device entries on your server, ensuring clean sign-outs every time.",
+        "Smoother Sign-In & Quick Connect: Added a dedicated Quick Connect popup dialog and refreshed the 'Who's Watching?' profile switcher.",
+        "Server Controls Polish: Improved active session details and mobile message broadcasting in Server Operations."
+      ]
+    },
+    {
+      "versionCode": 2,
+      "versionName": "1.0.1",
+      "notes": [
+        "QR Pairing Fix: Fixed an issue preventing the QR code scanner from working properly when pairing with Aurelia TV.",
+        "Stability Improvements: Squashed minor UI and playback bugs from the initial release."
+      ]
+    },
     {
       "versionCode": 1,
       "versionName": "1.0.0",
