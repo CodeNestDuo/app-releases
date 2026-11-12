@@ -1,0 +1,15 @@
+
+blank_issues_enabled: false
+
+contact_links:
+  - name: CodeNest Duo Discord
+    url: https://discord.gg/AeMUp4aftg
+    about: Ask questions or get help from our community.
+
+  - name: Website & Documentation
+    url: https://codenestduo.com
+    about: Visit our website for app information, FAQs and changelogs.
+
+  - name: Email Support
+    url: mailto:codenestduo@proton.me
+    about: Contact us directly for support or private matters.
