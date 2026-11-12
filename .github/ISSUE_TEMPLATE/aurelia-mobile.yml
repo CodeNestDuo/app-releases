@@ -1,0 +1,88 @@
+
+name: Aurelia Mobile Bug Report
+description: Report a bug in Aurelia for Android phones and tablets.
+title: "[Aurelia Mobile]: "
+labels:
+  - bug
+  - app:aurelia-mobile
+  - needs-triage
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us improve Aurelia!
+        Please provide as much detail as possible.
+        Do not include passwords, access tokens or private server credentials.
+
+  - type: input
+    id: app_version
+    attributes:
+      label: Aurelia version
+      description: Which version of the app are you using?
+      placeholder: e.g. 1.0.2
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device model
+      description: Your phone or tablet model.
+      placeholder: e.g. iQOO Neo, OnePlus Pad
+    validations:
+      required: true
+
+  - type: input
+    id: android_version
+    attributes:
+      label: Android version
+      placeholder: e.g. Android 15
+    validations:
+      required: true
+
+  - type: input
+    id: jellyfin_version
+    attributes:
+      label: Jellyfin server version
+      placeholder: e.g. 10.10.7
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: What happened?
+      placeholder: Describe the issue you encountered.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Open...
+        2. Navigate to...
+        3. Tap...
+        4. Observe the issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: What did you expect to happen?
+    validations:
+      required: false
+
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Logs and screenshots
+      description: Attach relevant screenshots or logs. Remove private information first.
+    validations:
+      required: false
