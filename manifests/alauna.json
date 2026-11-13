@@ -1,11 +1,22 @@
 {
-  "versionCode": 18,
-  "versionName": "1.1.18",
+  "versionCode": 19,
+  "versionName": "1.1.19",
   "minSdkVersion": 24,
   "targetSdkVersion": 36,
-  "releaseDate": "2026-11-07",
-  "apkUrl": "https://play.google.com/apps/testing/com.app.alauna",
+  "releaseDate": "2026-11-13",
+  "apkUrl": "https://play.google.com/store/apps/details?id=com.app.alauna",
   "releases": [
+    {
+      "versionCode": 19,
+      "versionName": "1.1.19",
+      "notes": [
+        "Quick Audio Trimming & Export: Added direct Trim Audio and Export Audio options inside song menus for faster snippet creation.",
+        "Dynamic Quick Actions: Home screen launcher shortcuts now automatically update to match your chosen in-app language.",
+        "Smarter Genre & Artist Tagging: Multi-delimiter genre autocomplete with regional and language genre support, cleaner delimiter spacing, and smoother cursor behavior.",
+        "Refined MIDI Artwork: Updated procedural MIDI sonogram covers with clear BPM, meter, and note event labels.",
+        "Startup & Theme Polish: Hardened shortcut registration on app launch, updated Material Kolor dynamic theming acknowledgements, and refined UI stability."
+      ]
+    },
     {
       "versionCode": 18,
       "versionName": "1.1.18",
