@@ -14,6 +14,7 @@
         "60–120 FPS Visualizers: Every visualizer now runs smoother with zero-allocation physics and pauses cleanly to save battery.",
         "Shuffle Anywhere: Added Shuffle All to the overflow menu across albums, artists, folders, and genres.",
         "Smart Tag Editor: Multi-delimiter genre auto-suggest as you type with regional language support, cleaner spacing, and smoother cursor behavior.",
+        "Richer Artist Biographies & On-Demand Loading: Artist profiles now fetch full Last.fm biographies with automatic Wikipedia summary fallback when needed, and load artist cover art data on demand instead of in large bursts.",
         "Library & MIDI Fixes: Fixed folder exclusion sync, NULL-duration audio file indexing, and MIDI playback/waveform bugs.",
         "Smoother Audio Controls: Refined EQ spline sliders and stepped hardware volume controls for stutter-free adjustments.",
         "32-Bit Device Crash Fix & Polish: Fixed startup crashes on older 32-bit Android devices, updated Android 15 edge-to-edge display, and refreshed translations."
