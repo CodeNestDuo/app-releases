@@ -10,10 +10,11 @@
       "versionCode": 20,
       "versionName": "1.1.20",
       "notes": [
-        "New Particle Burst Visualizer: Watch glowing sparks burst to the beat (Diwali fireworks FX 🪔✨🪷), alongside a refreshed, retro arcade-inspired Dancer Visualizer.",
+        "New Particle Burst Visualizer: Watch glowing sparks burst to the beat, alongside a refreshed retro arcade-inspired Dancer visualizer.",
         "60–120 FPS Visualizers: Every visualizer now runs smoother with zero-allocation physics and pauses cleanly to save battery.",
         "Shuffle Anywhere: Added Shuffle All to the overflow menu across albums, artists, folders, and genres.",
         "Smart Tag Editor: Multi-delimiter genre auto-suggest as you type with regional language support, cleaner spacing, and smoother cursor behavior.",
+        "Library & MIDI Fixes: Fixed folder exclusion sync, NULL-duration audio file indexing, and MIDI playback/waveform bugs.",
         "Smoother Audio Controls: Refined EQ spline sliders and stepped hardware volume controls for stutter-free adjustments.",
         "32-Bit Device Crash Fix & Polish: Fixed startup crashes on older 32-bit Android devices, updated Android 15 edge-to-edge display, and refreshed translations."
       ]
