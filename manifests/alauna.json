@@ -1,11 +1,22 @@
 {
-  "versionCode": 20,
-  "versionName": "1.1.20",
+  "versionCode": 21,
+  "versionName": "1.1.21",
   "minSdkVersion": 24,
   "targetSdkVersion": 36,
   "releaseDate": "2026-11-16",
   "apkUrl": "https://play.google.com/store/apps/details?id=com.app.alauna",
   "releases": [
+    {
+      "versionCode": 21,
+      "versionName": "1.1.21",
+      "notes": [
+        "New Visualizers: Added Neural Tree, Liquid Mercury, and Celestial Orrery with true planetary orbits.",
+        "Playback Checkpoints: Automatically saves your track position every 30 seconds so your spot is never lost if closed in the background.",
+        "MiniPlayer Status Badge: Added a compact like/dislike badge to the MiniPlayer album cover.",
+        "Dialog Polish: Upgraded the update and release notes dialogs to a cleaner Material 3 layout.",
+        "Fixes: Fixed favorite status sync after backup restore and cleaned up ObjectBox background database cursors."
+      ]
+    },
     {
       "versionCode": 20,
       "versionName": "1.1.20",
