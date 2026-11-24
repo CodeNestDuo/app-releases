@@ -1,11 +1,22 @@
 {
-  "versionCode": 21,
-  "versionName": "1.1.21",
+  "versionCode": 22,
+  "versionName": "1.1.22",
   "minSdkVersion": 24,
   "targetSdkVersion": 36,
-  "releaseDate": "2026-11-16",
+  "releaseDate": "2026-11-24",
   "apkUrl": "https://play.google.com/store/apps/details?id=com.app.alauna",
   "releases": [
+    {
+      "versionCode": 22,
+      "versionName": "1.1.22",
+      "notes": [
+        "Browse by Year: Added a dedicated Year view with a quick year picker to explore tracks grouped by release year, complete with track counts, album totals, and duration summaries.",
+        "Lyrics Text Animations: Added customizable synced lyrics animation styles (Default, Stage Spotlight, Karaoke Sweep, and Elastic Wave) under Artwork & Visuals settings.",
+        "Lyrics & Folder Display Polish: Improved full-screen Lyrics Box controls and fading edges, and added scrolling folder paths in the Folders tab, Folder songs screen, and Library exclusion screen.",
+        "Visualizer & App Size Optimizations: Reduced CPU and allocation overhead for smoother visualizers on older devices and trimmed unused font assets for a leaner download.",
+        "Translations & Settings Polish: Added one-tap reset for Artwork & Visuals settings and updated localizations across all supported languages."
+      ]
+    },
     {
       "versionCode": 21,
       "versionName": "1.1.21",
@@ -21,8 +32,8 @@
       "versionCode": 20,
       "versionName": "1.1.20",
       "notes": [
-        "New Particle Burst Visualizer: Watch glowing sparks burst to the beat, alongside a refreshed retro arcade-inspired Dancer visualizer.",
-        "60–120 FPS Visualizers: Every visualizer now runs smoother with zero-allocation physics and pauses cleanly to save battery.",
+        "New Particle Burst Visualizer: Watch glowing sparks burst to the beat (Diwali!!), alongside a refreshed retro arcade-inspired Dancer visualizer.",
+        "60 FPS Visualizers: Most visualizers now run smoother with zero-allocation physics and pauses cleanly to save battery.",
         "Shuffle Anywhere: Added Shuffle All to the overflow menu across albums, artists, folders, and genres.",
         "Smart Tag Editor: Multi-delimiter genre auto-suggest as you type with regional language support, cleaner spacing, and smoother cursor behavior.",
         "Richer Artist Biographies & On-Demand Loading: Artist profiles now fetch full Last.fm biographies with automatic Wikipedia summary fallback when needed, and load artist cover art data on demand instead of in large bursts.",
